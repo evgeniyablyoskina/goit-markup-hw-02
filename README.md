@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-GOIT HW#1 HTML-разметка макета страницы для веб-студии
+# goit-markup-hw-02
+
+GOIT HW#2 Project WebStudio. CSS for first HW + second page
