@@ -46,6 +46,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo.dark {
@@ -60,32 +61,35 @@ body {
 
 /* --------------- Header */
 
-.link {
+.site-nav-link {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.site-nav .link {
-  color: var(--title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
 
-.contacts-nav .link {
+.contacts-nav-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav-link:hover,
+.contacts-nav-link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .current {
+.current {
   color: var(--accent-color);
 }
 
@@ -109,7 +113,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero > .btn {
+.hero-btn {
   background-color: var(--accent-color);
   color: var(--btn-text-color);
 
@@ -121,8 +125,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero > .btn:hover,
-.hero > .btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--btn-text-color);
   color: var(--accent-color);
 }
@@ -143,7 +147,7 @@ body {
 
 /* --------------- Features */
 
-.features .title {
+.features-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -152,8 +156,7 @@ body {
   text-transform: uppercase;
 }
 
-.features .text {
-  /* font-weight: 400; */
+.features-text {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -172,7 +175,7 @@ body {
   line-height: 1.19;
 }
 
-.team .text {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
 }
@@ -185,15 +188,19 @@ body {
 
 /* --------------- Filtr */
 
-.btn {
+.filtr-btn {
   background-color: var(--second-bg-color);
   color: var(--title-text-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 
-.btn:hover,
-.btn:focus {
+.filtr-btn:hover,
+.filtr-btn:focus {
   background-color: var(--accent-color);
   color: var(--btn-text-color);
 }
@@ -201,12 +208,6 @@ body {
 /* END Filtr */
 
 /* --------------- Examples */
-
-.filtr .btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-}
 
 .portfolio-title {
   color: var(--title-text-color);
@@ -217,7 +218,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio .desc {
+.portfolio-desc {
   font-size: 16px;
   line-height: 1.86;
 }
@@ -245,6 +246,7 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 .address-map:hover,
